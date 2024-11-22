@@ -389,7 +389,7 @@ if __name__ == '__main__':
         'verde': (50, 50),
         'amarillo': (50, 50)
     }
-    logo_path = 'logo1.png'
+    logo_path = 'logo11.png'
 
     app = TruckAnimator(root, image_path, png_paths, new_sizes, logo_path)
     root.mainloop()
