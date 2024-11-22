@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import pandas as pd
-from tkinter import ttk
+from tkinter import ttk        
 import random
 class TruckAnimator:
     def __init__(self, root, image_path, png_paths, new_sizes, logo_path):
@@ -14,7 +14,7 @@ class TruckAnimator:
         self.png_paths = png_paths
         self.new_sizes = new_sizes
         self.logo_path = logo_path
-        # Inicializar el tamaño del logo (ajustar aquí)
+        # Inicializar el tamaño del logo (ajustar aquí)sss
         self.logo_size = (200, 200)  # Tamaño del logo en píxeles
 
         # Crear el notebook y las pestañas
