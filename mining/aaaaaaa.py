@@ -380,7 +380,7 @@ if __name__ == '__main__':
 
     image_path = "pw.png"
     png_paths = {
-        'rojo': 'camion.png',
+        'rojo': 'camion1.png',
         'verde': 'camion2.png',
         'amarillo': '4x4.png'
     }
